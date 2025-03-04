@@ -15,11 +15,12 @@ const Contact = () => {
                  before:lg:block'> Contactez-moi
                 </h2>
                 <p className='subtitle'>
-                    Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna 
-                    aliqua. Ut enim ad minim veniam, quis 
-                    nostrud exercitation.
+                Si vous avez un projet en tête ou des questions, 
+                n'hésitez pas à me contacter. Je suis à votre disposition 
+                *pour discuter de vos besoins et vous aider à concrétiser vos idées. 
+                Ensemble, créons des solutions web adaptées à vos attentes.
+
+
                 </p>
             </div>
 

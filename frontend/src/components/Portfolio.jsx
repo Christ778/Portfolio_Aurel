@@ -17,11 +17,11 @@ const Portfolio = () => {
                     Mes dernières oeuvres
                 </h2>
                 <p className='subtitle'>
-                    Lorem ipsum dolor sit amet, consectetur 
-                    adipiscing elit, sed do 
-                    eiusmod tempor incididunt ut labore 
-                    et dolore magna aliqua
-                    nostrud exercitation.
+                Découvrez les projets récents sur lesquels j'ai eu le plaisir de
+                 travailler. Chacun d'eux reflète mon engagement à offrir des 
+                 solutions web innovantes et adaptées aux besoins uniques de mes clients.
+
+
                 </p>
             </div>
             <Projects />

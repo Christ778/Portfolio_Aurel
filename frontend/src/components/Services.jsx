@@ -13,14 +13,18 @@ const Services = () => {
                 before:absolute before:opacity-40
                 before:-top-[2rem] before:-left-28
                 before:hidden before:lg:block'>
-                    Ce que je fais pour les clients
+                    Mes services pour vous
                 </h2>
                 <p className='subtitle'>
-                Lorem ipsum dolor sit amet, consectetur 
-                adipiscing elit, sed do eiusmod tempor
-                 incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud 
-                  exercitation ullamco laboris nisi ut.
+                Je propose une gamme de services sur mesure pour répondre aux 
+                besoins uniques de chaque client. Mon objectif est de créer des
+                 solutions web performantes et esthétiques, tout en garantissant
+                  une expérience utilisateur optimale. Que ce soit pour le
+                   développement d’un site vitrine, d’une application interactive
+                    ou d’une refonte de design, je m’engage à livrer des résultats 
+                    qui surpassent vos attentes.
+
+
                 </p>
             </div>
             {/* item grid */}

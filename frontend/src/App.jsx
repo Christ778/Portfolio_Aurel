@@ -9,7 +9,7 @@ import About from './components/About'
 import Skills from './components/Skills'
 import Portfolio from './components/Portfolio'
 import Services from './components/Services'
-import Testimonials from './components/Testimonials'
+// import Testimonials from './components/Testimonials'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import BackToTopBtn from './components/BackToTopBtn'
@@ -27,7 +27,7 @@ function App() {
       <Skills />
       <Portfolio />
       <Services />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Contact />
       <Footer />
       <BackToTopBtn />

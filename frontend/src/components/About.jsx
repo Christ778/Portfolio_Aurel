@@ -26,19 +26,23 @@ const About = () => {
                         </p>
                         <hr className='mb-8 opacity-5' />
                         <p className='mb-8'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                         sed do eiusmod tempor incididunt ut labore et dolore 
-                         magna aliqua. Ut enim ad minim veniam, quis nostrud
-                          exercitation ullamco laboris nisi ut aliquip ex 
-                          ea commodo consequat. Duis aute irure dolor.
-                           <br />Lorem ipsum dolor sit amet, consectetur 
-                           adipiscing elit.
+                        Passionné par la création d’expériences web innovantes,
+                         je suis un développeur freelance spécialisé dans la
+                          conception et le développement d’interfaces web 
+                          performantes et intuitives. Fort d’une solide expérience, 
+                          j’utilise des technologies modernes pour créer des sites 
+                          et applications qui répondent aux besoins spécifiques de mes clients. Mon approche se base sur l’écoute attentive de vos exigences pour transformer vos idées en solutions digitales efficaces et esthétiques.
+                           <br />Toujours en quête de nouveaux défis, je mets un
+                            point d’honneur à offrir des résultats de qualité qui
+                             allient performance et design.
                         </p>
                     </div>
-                    <button className='btn btn-md bg-[#077b32]
-                    hover:bg-[#065d24] transition-all'>
-                        Contactez-moi
-                    </button>
+                    <a href="tel:+2290191917503">
+                        <button className='btn btn-md bg-[#077b32] hover:bg-[#065d24] transition-all'>
+                            Contactez-moi
+                        </button>
+                    </a>
+
                  </div>
             </div>
 

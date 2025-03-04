@@ -36,6 +36,8 @@ import {
   import SkillImg6 from './assets/img/skills/nodejs.png';
   import SkillImg7 from './assets/img/skills/git.png';
   import SkillImg8 from './assets/img/skills/figma.png';
+  import SkillImg9 from './assets/img/skills/photoshop.png';
+  import SkillImg10 from './assets/img/skills/framer.png';
   
   // testimonial images
   import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
@@ -60,10 +62,10 @@ import {
       name: 'services',
       href: 'services',
     },
-    {
-      name: 'testimonials',
-      href: 'testimonials',
-    },
+    // {
+    //   name: 'testimonials',
+    //   href: 'testimonials',
+    // },
     {
       name: 'contact',
       href: 'contact',
@@ -196,6 +198,12 @@ import {
     {
       image: SkillImg8,
     },
+    {
+      image: SkillImg9,
+    },
+    {
+      image: SkillImg10,
+    },
   ];
   
   // services
@@ -204,25 +212,25 @@ import {
       icon: <FiLayout />,
       name: 'Web Design',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+        "Je conçois des interfaces modernes et intuitives qui offrent une expérience utilisateur fluide et agréable. Chaque projet est pensé pour allier esthétisme et fonctionnalité, en mettant l'accent sur un design responsive et adapté à vos besoins spécifiques."
     },
     {
       icon: <FiSettings />,
-      name: 'Web Development',
+      name: 'Développement Web',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+        "Je développe des sites web dynamiques et performants en utilisant les dernières technologies. Mon objectif est de créer des solutions sur mesure, évolutives et sécurisées, pour offrir une expérience fluide et efficace à vos utilisateurs."
     },
     {
       icon: <FiPenTool />,
       name: 'Branding',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+        "Je vous aide à construire une identité visuelle forte et cohérente qui reflète l’essence de votre marque. De la conception de votre logo à la création d’une charte graphique, chaque élément est conçu pour véhiculer vos valeurs et captiver votre public cible."
     },
     {
       icon: <FiTag />,
-      name: 'SEO',
+      name: 'Maintenance & Support',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+        "Je propose des services de maintenance et de support pour garantir que votre site reste à jour, sécurisé et performant. Que ce soit pour des mises à jour régulières, des corrections de bugs ou des améliorations, je m'assure que votre site fonctionne toujours de manière optimale."
     },
   ];
   
@@ -255,14 +263,22 @@ import {
   export const contact = [
     {
       icon: <FiMail />,
-      title: 'Have a question?',
-      subtitle: 'I am here to help you.',
-      description: 'Email me at hello@youremail.com',
+      title: 'Une question?',
+      subtitle: 'Je suis là pour vous aider.',
+      description: (
+        <span>
+          Envoyez-moi un email à{' '}
+          <a href="mailto:kodjogbeaurel4@gmail.com" className="text-[#077b32] hover:underline">
+            kodjogbeaurel4@gmail.com
+          </a>
+        </span>
+      ),
     },
+    
     {
       icon: <FiMapPin />,
-      title: 'Current Location',
-      subtitle: 'Bucharest, Romania',
-      description: 'Serving clients worldwide',
+      title: 'Localisation actuelle',
+      subtitle: 'Benin, Cotonou',
+      // description: 'Je sers des clients partout dans le monde',
     },
   ];
